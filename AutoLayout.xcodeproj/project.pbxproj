@@ -13,6 +13,7 @@
 		B17F572B1AA9972500071FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17F572A1AA9972500071FDB /* Images.xcassets */; };
 		B17F572E1AA9972500071FDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17F572C1AA9972500071FDB /* LaunchScreen.xib */; };
 		B17F573A1AA9972500071FDB /* AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F57391AA9972500071FDB /* AutoLayoutTests.swift */; };
+		B17F57441AA9C0F900071FDB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F57431AA9C0F900071FDB /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B17F57331AA9972500071FDB /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17F57381AA9972500071FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B17F57391AA9972500071FDB /* AutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTests.swift; sourceTree = "<group>"; };
+		B17F57431AA9C0F900071FDB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		B17F57201AA9972500071FDB /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				B17F57231AA9972500071FDB /* AppDelegate.swift */,
 				B17F57251AA9972500071FDB /* ViewController.swift */,
 				B17F57271AA9972500071FDB /* Main.storyboard */,
+				B17F57431AA9C0F900071FDB /* User.swift */,
 				B17F572A1AA9972500071FDB /* Images.xcassets */,
-				B17F572C1AA9972500071FDB /* LaunchScreen.xib */,
 				B17F57211AA9972500071FDB /* Supporting Files */,
 			);
 			path = AutoLayout;
@@ -90,6 +91,8 @@
 		B17F57211AA9972500071FDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B17F57231AA9972500071FDB /* AppDelegate.swift */,
+				B17F572C1AA9972500071FDB /* LaunchScreen.xib */,
 				B17F57221AA9972500071FDB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				B17F57261AA9972500071FDB /* ViewController.swift in Sources */,
 				B17F57241AA9972500071FDB /* AppDelegate.swift in Sources */,
+				B17F57441AA9C0F900071FDB /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
